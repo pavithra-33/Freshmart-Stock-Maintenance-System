@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreshMart - Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to FreshMart</h1>
+    <p>Your Smart Stock Manager</p>
+    <a href="{{ url_for('dashboard') }}" class="login-btn">Log In</a>
+  </div>
+</body>
+</html>

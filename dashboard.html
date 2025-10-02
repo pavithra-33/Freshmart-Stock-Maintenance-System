@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreshMart Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}">
+</head>
+<body>
+  <div class="dashboard">
+    <h1>FreshMart Dashboard</h1>
+    <div class="grid">
+      <a href="{{ url_for('view') }}" class="card">
+        <span>View Stock</span>
+      </a>
+      <a href="{{ url_for('add') }}" class="card">
+        <span>Add Stock</span>
+      </a>
+      <a href="{{ url_for('update') }}" class="card">
+        <span>Update Stock</span>
+      </a>
+      <a href="{{ url_for('delete') }}" class="card">
+        <span>Delete Stock</span>
+      </a>
+    </div>
+    <a href="{{ url_for('home') }}" class="logout">Log Out</a>
+  </div>
+</body>
+</html>
