@@ -109,10 +109,10 @@ Open your browser and go to:
 
 ## 🛠️ Technologies Used
 
-**Backend**: Flask (Python)
-**Database**: MongoDB Atlas / Local MongoDB
-**Frontend**: HTML, CSS (separate files for each page)
-**ORM/Driver**: PyMongo
+* **Backend**: Flask (Python)
+* **Database**: MongoDB Atlas / Local MongoDB
+* **Frontend**: HTML, CSS (separate files for each page)
+* **ORM/Driver**: PyMongo
 
 ## 🔮 Future Enhancements
 
